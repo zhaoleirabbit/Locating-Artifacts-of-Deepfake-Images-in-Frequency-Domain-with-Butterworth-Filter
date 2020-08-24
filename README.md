@@ -41,4 +41,20 @@ After you have converted the data files you can train a classifer to locate the 
                                      [-o FILTER_ORDER [FILTER_ORDER ...]]
                                      [--feature_num FEATURE_NUM]
                                      output_path
+  positional arguments:
+  output_path                 the location of training model
+
+  optional arguments:
+  -h, --help            show this help message and exit
+  --truedir, -true      Real dataset to load
+  --falsedir, -false    Fake dataset to load
+  --type, -t            the type of filter to use; Default: high.
+  --num_images, -n      the number of images to use; Default: 3000.
+  --cut_off, -d         Cut-off frequency of filter; Default: [15,20].
+  --bandwidth, -w       Bandwidth of band-pass filter; Default: [10,20].
+  --filter_order, -o    the order of filter
+  --feature_num         the number of 1D features to use
+ 
+Example: 
+python normalize_deepfake_filter.py ./mode/ -t high -n 1000 -d 10 20 -w 10 20 -o 1 5 10 -true ./data/fake_videos/real_images/cropped/ -false ./data/fake_videos/fake_images/cropped/
 ```
