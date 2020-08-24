@@ -26,9 +26,9 @@ accuracy."
 
 ## datasets
 We utilize these three popular datasets:  
-[FaceForensics++](https://github.com/danmohaha/celeb-deepfakeforensics)  
-UADFV  
-DeepFake-TIMIT  
+[FaceForensics++](https://github.com/ondyari/FaceForensics/)  
+[UADFV](https://github.com/danmohaha/WIFS2018_In_Ictu_Oculi)  
+[DeepFake-TIMIT](https://www.idiap.ch/dataset/deepfaketimit)  
 After downloading the data, you need to use extract_test.py to extract the video frame, and then use recogize.py to extract the face
 
 ## Experiments
