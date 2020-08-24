@@ -1,6 +1,6 @@
 # Locating-Artifacts-of-Deepfake-Images-in-Frequency-Domain-with-Butterworth-Filter
->"the code of paper Locating Artifacts of Deepfake Images in Frequency Domain with Butterworth Filter
-Generative Adversarial Networks (GANs) have
+"the code of paper Locating Artifacts of Deepfake Images in Frequency Domain with Butterworth Filter
+>Generative Adversarial Networks (GANs) have
 achieved impressive results for many face-swap applications
 which can generate realistic images. These synthesized images
 can even confuse human eyes. Deepfake images recognition has
