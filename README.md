@@ -1,5 +1,5 @@
 # Locating-Artifacts-of-Deepfake-Images-in-Frequency-Domain-with-Butterworth-Filter
-the code of paper Locating Artifacts of Deepfake Images in Frequency Domain with Butterworth Filter
+"the code of paper Locating Artifacts of Deepfake Images in Frequency Domain with Butterworth Filter
 Generative Adversarial Networks (GANs) have
 achieved impressive results for many face-swap applications
 which can generate realistic images. These synthesized images
@@ -21,4 +21,4 @@ domain using the effective frequency band we found, and test it
 on the mainstream deepfake dataset. The results suggest that all
 the mainstream datasets have frequency domain defects, and the
 frequency band we find can effectively improve the classification
-accuracy.
+accuracy."
