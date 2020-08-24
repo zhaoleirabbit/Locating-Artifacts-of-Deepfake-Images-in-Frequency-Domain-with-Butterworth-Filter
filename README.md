@@ -24,8 +24,8 @@ frequency band we find can effectively improve the classification
 accuracy."
 
 
-##datasets
-We utilize these three popular datasets:
-FaceForensics++
-UADFV
-DeepFake-TIMIT
+## datasets
+We utilize these three popular datasets:  
+FaceForensics++  
+UADFV  
+DeepFake-TIMIT  
