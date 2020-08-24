@@ -33,3 +33,10 @@ After downloading the data, you need to use extract_test.py to extract the video
 
 ## Experiments
 After you have converted the data files you can train a classifer to locate the effective frequency band:  
+  usage: normalize_deepfake_fillter.py [-h] [-true TRUEDIR] [-false FALSEDIR]
+                                     [-t {high,low,bandpass}] [-n NUM_IMAGES]
+                                     [-d CUT_OFF [CUT_OFF ...]]
+                                     [-w BANDWIDTH [BANDWIDTH ...]]
+                                     [-o FILTER_ORDER [FILTER_ORDER ...]]
+                                     [--feature_num FEATURE_NUM]
+                                     output_path
