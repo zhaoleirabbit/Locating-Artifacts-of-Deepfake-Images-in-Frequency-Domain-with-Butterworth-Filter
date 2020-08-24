@@ -29,3 +29,7 @@ We utilize these three popular datasets:
 FaceForensics++  
 UADFV  
 DeepFake-TIMIT  
+After downloading the data, you need to use extract_test.py to extract the video frame, and then use recogize.py to extract the face
+
+## Experiments
+After you have converted the data files you can train a classifer to locate the effective frequency band:  
