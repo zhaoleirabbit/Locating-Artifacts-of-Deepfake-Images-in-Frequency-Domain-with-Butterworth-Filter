@@ -22,3 +22,8 @@ on the mainstream deepfake dataset. The results suggest that all
 the mainstream datasets have frequency domain defects, and the
 frequency band we find can effectively improve the classification
 accuracy."
+##datasets
+We utilize these three popular datasets:
+FaceForensics++
+UADFV
+DeepFake-TIMIT
